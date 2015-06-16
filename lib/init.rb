@@ -55,6 +55,6 @@ begin
 	  end
 	end
 rescue Exception => e 
-	puts "[!] Error reading the file in " + path.to_s +" => " + e.to_s
+	puts "[!] Error reading the file in " + path +" => " + e.to_s
 	exit
 end	
